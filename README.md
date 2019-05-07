@@ -1,5 +1,7 @@
 # anomaly_detection
 
+#Data source
+https://raw.githubusercontent.com/numenta/NAB/master/data/realKnownCause/ec2_request_latency_system_failure.csv
 
 Without API: successfully applied using Luminol library
 
