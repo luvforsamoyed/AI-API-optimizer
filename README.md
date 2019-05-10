@@ -11,6 +11,6 @@ Azure: failed due to data conditions(timestamp has to be uniformly distributed)
 
 GCP:
 
-Watson Discovery:
+Watson Discovery: failed due to data conditions(timestamp has to be uniformly distributed)
 
 Adobe Analytics: 
