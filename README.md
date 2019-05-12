@@ -38,7 +38,7 @@ Possible API
 Conclusion
 ----------
 
-###Brief conclusion
+### Brief conclusion
 
 Without API: successfully applied using Luminol library
 
@@ -52,7 +52,7 @@ Watson Discovery: cannot applied to this dataset.
 
 
 
-###Graphical results
+### Graphical results
 
 -Without API
 
