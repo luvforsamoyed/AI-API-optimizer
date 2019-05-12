@@ -38,7 +38,7 @@ Possible API
 Conclusion
 ----------
 
--Brief conclusion
+###Brief conclusion
 
 Without API: successfully applied using Luminol library
 
@@ -51,6 +51,8 @@ GCP, Adobe Analytics: only offers alpha version.
 Watson Discovery: cannot applied to this dataset.
 
 
+
+###Graphical results
 
 -Without API
 
