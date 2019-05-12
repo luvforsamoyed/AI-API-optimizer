@@ -1,14 +1,14 @@
 # anomaly_detection
 
-This is an H1
-=============
 
-#Introduction
-
+Introduction
+-------------
 
 
 
-#About Datset
+
+About Dataset
+-------------
 
 It's hard to find time series dataset that ensures uniform time interval, and this dataset will only be used to check whether how well each API scores in general anomaly detection, so we will use virtual time series using random sampling. 
 This was written in random_sampling.ipynb
@@ -27,14 +27,16 @@ The process is following:
 
 Through this process we will get uniform interval-time series dataset. We are ready for work with each API.
 
-#Possible API
+Possible API
+-------------
 
 
 
 
 
 
-#Conclusion
+Conclusion
+----------
 
 -Brief conclusion
 
@@ -51,12 +53,19 @@ Watson Discovery: cannot applied to this dataset.
 
 
 -Without API
+
 ![Alt text](https://github.com/luvforsamoyed/anomaly_detection/blob/master/rs_without_api.png?raw=true)
 
+
+
 -AWS
+
 ![Alt text](https://github.com/luvforsamoyed/anomaly_detection/blob/master/rs_aws.png?raw=true)
 
+
+
 -Azure
+
 ![Alt text](https://github.com/luvforsamoyed/anomaly_detection/blob/master/rs_azure.png?raw=true)
 
 
