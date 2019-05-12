@@ -30,10 +30,17 @@ Through this process we will get uniform interval-time series dataset. We are re
 Possible API
 -------------
 
+5 APIs and environment without external API will be tested:
 
+1. Without API(using Luminol python library)
 
+2. Random Cut Forest algorithm in Amazon Web Service SageMaker(AWS)
 
+3. Azure Anomaly Detector
 
+4. Google Cloud Inference API
+
+5. Adobe Analytics - Anomaly Detection
 
 Conclusion
 ----------
