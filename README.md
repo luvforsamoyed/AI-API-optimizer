@@ -50,6 +50,17 @@ Watson Discovery: cannot applied to this dataset.
 
 
 
+-Without API
+![Alt text](https://github.com/luvforsamoyed/anomaly_detection/blob/master/rs_without_api.png?raw=true)
+
+-AWS
+![Alt text](https://github.com/luvforsamoyed/anomaly_detection/blob/master/rs_aws.png?raw=true)
+
+-Azure
+![Alt text](https://github.com/luvforsamoyed/anomaly_detection/blob/master/rs_azure.png?raw=true)
+
+
+
 
 
 
