@@ -8,7 +8,7 @@ There are many APIs that carry out various machine learning algorithms. However,
 *in this initial version, we only offer function respect to ANOMALY DETECTION.
 
 
-About Dataset
+about Dataset
 -------------
 
 It's hard to find time series dataset that ensures uniform time interval, and this dataset will only be used to check whether how well each API scores in general anomaly detection, so we will use virtual time series using random sampling. 
@@ -33,7 +33,7 @@ Score Metrics
 
 (should be written)
 
-Possible API
+Available API
 -------------
 
 5 APIs and environment without external API will be tested:
