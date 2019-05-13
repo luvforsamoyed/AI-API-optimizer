@@ -12,7 +12,7 @@ About Dataset
 -------------
 
 It's hard to find time series dataset that ensures uniform time interval, and this dataset will only be used to check whether how well each API scores in general anomaly detection, so we will use virtual time series using random sampling. 
-This was written in random_sampling.ipynb
+This was written in random_sampling.ipynb in detail
 
 The process is following:
 
