@@ -5,7 +5,7 @@ Introduction
 -------------
 There are many APIs that carry out various machine learning algorithms. However, each API has different format so it is hard to adapt same problem to different-shaped APIs. Furthermore, to compare each API's score, user must have to use whole possible APIs. It is both time-consuming and wasteful way. So, in this project, we will provide python module that automatically compares scores between various APIs respect to certain modeling method. Through this module, you can choose your best API only by doing simple, and intuitive experiment.
 
-*in this initial version, we only offer function respect to **anomaly detection.
+*in this initial version, we only offer function respect to ANOMALY DETECTION.
 
 
 About Dataset
