@@ -3,8 +3,9 @@
 
 Introduction
 -------------
+There are many APIs that carry out various machine learning algorithms. However, each API has different format so it is hard to adapt same problem to different-shaped APIs. Furthermore, to compare each API's score, user must have to use whole possible APIs. It is both time-consuming and wasteful way. So, in this project, we will provide python module that automatically compares scores between various APIs respect to certain modeling method. Through this module, you can choose your best API only by doing simple, and intuitive experiment.
 
-
+*in this initial version, we only offer function respect to **anomaly detection.
 
 
 About Dataset
@@ -26,6 +27,11 @@ The process is following:
 4. Generate continuous timestamp(start from 2000.01.01, make 1000 timestamp with uniform 1 day interval). Then align with random sample values.
 
 Through this process we will get uniform interval-time series dataset. We are ready for work with each API.
+
+Score Metrics
+-------------
+
+(should be written)
 
 Possible API
 -------------
