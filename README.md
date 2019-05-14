@@ -28,8 +28,9 @@ The process is following:
 
 Through this process we will get uniform interval-time series dataset. We are ready for work with each API.
 
-Score Metrics
+Performance Metrics
 -------------
+For scoring anomaly detection of each API, we will use AUPRC metrics. It stands for Area Under Precision Recall Curve.
 
 (should be written)
 
