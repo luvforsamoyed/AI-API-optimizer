@@ -37,7 +37,7 @@ This was written in random_sampling.ipynb in detail
 
 Through this process we will get uniform interval-time series dataset. We are ready for working with each API.
 
-Environments
+Environments for Inference
 -------------
 
 3 environments(including without API) will be tested:
