@@ -26,6 +26,10 @@ The process is following:
 
 4. Generate continuous timestamp(start from 2000.01.01, make 1000 timestamp with uniform 1 day interval). Then align with random sample values.
 
+Sample Dataset (seed = 1)
+
+![Alt text](https://github.com/luvforsamoyed/anomaly_detection/blob/master/dataset.png?raw=true)
+
 Through this process we will get uniform interval-time series dataset. We are ready for work with each API.
 
 Performance Metrics
