@@ -51,11 +51,11 @@ Environments for Inference
 
 Inference
 ----------
-## Without API(using Luminol python library build by LinkedIn)
+### Without API(using Luminol python library build by LinkedIn)
 
-## Random Cut Forest algorithm in Amazon Web Service SageMaker(AWS)
+### Random Cut Forest algorithm in Amazon Web Service SageMaker(AWS)
 
-## Azure Anomaly Detector
+### Azure Anomaly Detector
 
 
 Performance Metrics - Compare AUPRC
