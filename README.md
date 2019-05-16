@@ -14,7 +14,7 @@ about Dataset
 It's hard to find time series dataset that ensures uniform time interval, and this dataset will only be used to check whether how well each API scores in general anomaly detection, so we will use virtual time series using random sampling. 
 This was written in random_sampling.ipynb in detail
 
-The process is following:
+### The process is following:
 
 1. Sampling 1000(default) sample values from gaussian distribution.(mu = 10, sigma = 2) This values will be align with continuous timestamp index(interval: 1day) in step 4.
 
@@ -26,7 +26,7 @@ The process is following:
 
 4. Generate continuous timestamp(start from 2000.01.01, make 1000 timestamp with uniform 1 day interval). Then align with random sample values.
 
-Sample Dataset (seed = 1)
+### Sample Dataset (seed = 1)
 
 ![Alt text](https://github.com/luvforsamoyed/anomaly_detection/blob/master/dataset.png?raw=true)
 
