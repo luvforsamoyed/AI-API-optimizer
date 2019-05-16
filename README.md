@@ -7,6 +7,11 @@ There are many APIs that carry out various machine learning algorithms. However,
 
 *in this initial version, we only offer function respect to ANOMALY DETECTION.
 
+The whole pipeline will be the following figure
+
+![Alt text](https://github.com/luvforsamoyed/anomaly_detection/blob/master/pipeline.png?raw=true)
+
+
 
 about Dataset
 -------------
@@ -38,20 +43,16 @@ For scoring anomaly detection of each API, we will use AUPRC metrics. It stands 
 
 (should be written)
 
-Available API
+Environments
 -------------
 
-5 APIs and environment without external API will be tested:
+5 environments(including without API) will be tested:
 
-1. Without API(using Luminol python library)
+1. Without API(using Luminol python library build by LinkedIn)
 
 2. Random Cut Forest algorithm in Amazon Web Service SageMaker(AWS)
 
 3. Azure Anomaly Detector
-
-4. Google Cloud Inference API
-
-5. Adobe Analytics - Anomaly Detection
 
 Conclusion
 ----------
@@ -63,11 +64,6 @@ Without API: successfully applied using Luminol library
 AWS: successfully applied
 
 Azure: successfully applied
-
-GCP, Adobe Analytics: only offers alpha version.
-
-Watson Discovery: cannot applied to this dataset.
-
 
 
 ### Graphical results
