@@ -35,7 +35,7 @@ This was written in random_sampling.ipynb in detail
 
 ![Alt text](https://github.com/luvforsamoyed/anomaly_detection/blob/master/dataset.png?raw=true)
 
-Through this process we will get uniform interval-time series dataset. We are ready for work with each API.
+Through this process we will get uniform interval-time series dataset. We are ready for working with each API.
 
 Performance Metrics
 -------------
@@ -46,7 +46,7 @@ For scoring anomaly detection of each API, we will use AUPRC metrics. It stands 
 Environments
 -------------
 
-5 environments(including without API) will be tested:
+3 environments(including without API) will be tested:
 
 1. Without API(using Luminol python library build by LinkedIn)
 
@@ -57,7 +57,7 @@ Environments
 Conclusion
 ----------
 
-### Brief conclusion
+### Abstract
 
 Without API: successfully applied using Luminol library
 
