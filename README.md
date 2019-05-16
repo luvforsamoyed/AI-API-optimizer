@@ -13,7 +13,7 @@ The whole pipeline will be the following figure
 
 
 
-about Dataset
+Random Sampling
 -------------
 
 It's hard to find time series dataset that ensures uniform time interval, and this dataset will only be used to check whether how well each API scores in general anomaly detection, so we will use virtual time series using random sampling. 
@@ -37,12 +37,6 @@ This was written in random_sampling.ipynb in detail
 
 Through this process we will get uniform interval-time series dataset. We are ready for working with each API.
 
-Performance Metrics
--------------
-For scoring anomaly detection of each API, we will use AUPRC metrics. It stands for Area Under Precision Recall Curve.
-
-(should be written)
-
 Environments
 -------------
 
@@ -54,16 +48,21 @@ Environments
 
 3. Azure Anomaly Detector
 
-Conclusion
+
+Inference
 ----------
+# Without API(using Luminol python library build by LinkedIn)
 
-### Abstract
+# Random Cut Forest algorithm in Amazon Web Service SageMaker(AWS)
 
-Without API: successfully applied using Luminol library
+# Azure Anomaly Detector
 
-AWS: successfully applied
 
-Azure: successfully applied
+Performance Metrics - Compare AUPRC
+-------------
+For scoring anomaly detection of each API, we will use AUPRC metrics. It stands for Area Under Precision Recall Curve.
+
+(should be written)
 
 
 ### Graphical results
@@ -85,6 +84,8 @@ Azure: successfully applied
 ![Alt text](https://github.com/luvforsamoyed/anomaly_detection/blob/master/rs_azure.png?raw=true)
 
 
+Conclusion
+------------
 
 
 
