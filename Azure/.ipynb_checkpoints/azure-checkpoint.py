@@ -7,12 +7,13 @@ from sklearn.metrics import f1_score
 
 class azure():
     
-    def set_data(self, anomal_pt, value, time_series, sensitivity = None, algorithm=None, **kwargs):
+    def set_data(self, anomal_pt, value, time_series, sensitivity = None, algorithm=None, granularity='daily', **kwargs):
     
         self.abn_pt = anomal_pt
         self.y = value
         self.dt = time_series
-        self.algorithm = algorithm        
+        self.algorithm = algorithm 
+        self.granularity = granularity
         self.batch_detection_url = kwargs.get('url')
         self.endpoint = kwargs.get('endpoint')
         self.subscription_key = kwargs.get('key')
@@ -47,7 +48,7 @@ class azure():
         lists = []
         for i in range(y.size):
             lists.append({"timestamp": dt[i], "value": y[i]})
-        df = {'granularity': 'daily', 'series': lists}
+        df = {'granularity': self.granularity, 'series': lists}
         true_ = self.detect_batch(df)
 
         y_true = np.zeros(y.size)
