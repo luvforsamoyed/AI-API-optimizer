@@ -39,34 +39,4 @@ class luminol():
         
         f1 = f1_score(y_true, y_score)
 
-        return f1
-
-    def vis(self):
-
-        y_true = self.y_true
-        y_score = self.y_score
-        y = self.y
-        ts = self.ts
-        ts = np.array(ts)
-        
-        tp = []
-        fp = []
-        fn = []
-
-        for i in range(y_true.size):
-            if (y_true[i] == 1) & (y_score[i] == 1):
-                tp.append(i)
-            elif (y_true[i] == 1) & (y_score[i] == 0):
-                fn.append(i)            
-            elif (y_true[i] == 0) & (y_score[i] == 1):
-                fp.append(i)
-        
-        req_stamp = pd.Series(y, index = ts)
-        req_stamp.plot(x=req_stamp.index, y=req_stamp.values, figsize=(12,6))
-        plt.scatter(x=ts[tp], y=y[tp], c='red', label='True Positive')
-        plt.scatter(x=ts[fp], y=y[fp], c='blue', label='False Positive')
-        plt.scatter(x=ts[fn], y=y[fn], c='green', label='False Negative')
-        plt.legend()
-        plt.xlabel('Time')
-        plt.ylabel('Value')
-        plt.title("Virtual Time Series")
+        return f1, y_true, y_score
