@@ -1,5 +1,5 @@
-##tested
-
+fast_tester.ipynb
+dataset/
 
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
@@ -103,6 +103,7 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
+
 .env
 .venv
 env/
