@@ -16,7 +16,7 @@ Luminol(오픈 소스)를 포함한 총 3가지의 환경에서 time series에 �
 
 
 # Dataset Description
-데이터셋은 Yahoo! Webscope[^1]로부터 제공된 것이다.
+데이터셋은 Yahoo! Webscope<sup>[1](#1)</sup>로부터 제공된 것이다.
 
 데이터셋은 70여개의 실제 시계열 데이터와 300여개의 가상 데이터셋으로 4개의 섹션(A1, A2, A3, A4)으로 구분되어 있다.
 
@@ -28,6 +28,9 @@ Luminol(오픈 소스)를 포함한 총 3가지의 환경에서 time series에 �
 |Hand Labeling 여부|O|X|X|X|
 |Seasonality, Noise Labeling|X|X|O|O|
 |Trend, Change Point 여부|X|X|X|O|
+
+<a name="1">Yahoo! Webscope dataset ydata-labeled-time-series-anomalies-v1_0 
+[[https://yahooresearch.tumblr.com/post/114590420346/a-benchmark-dataset-for-time-series-anomaly](https://yahooresearch.tumblr.com/post/114590420346/a-benchmark-dataset-for-time-series-anomaly)]</a>
 
 
 [^1]: Yahoo! Webscope dataset ydata-labeled-time-series-anomalies-v1_0 
