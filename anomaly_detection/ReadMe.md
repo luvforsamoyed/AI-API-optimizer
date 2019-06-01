@@ -39,10 +39,10 @@ Luminol(오픈 소스)를 포함한 총 3가지의 환경에서 time series에 �
 # Performance Metrics
 Average Precision (AP) score를 이용할 것이다.
 
- $$
-\text{AP} = \sum_n (R_n - R_{n-1}) P_n
- $$
-$P_n$과 $R_n$는 n번째 threshold에서의 Precision과 Recall이다. 
+![
+](https://ifh.cc/g/3w8we.png)
+
+P_n과 R_n는 n번째 threshold에서의 Precision과 Recall이다. 
 0에 가까울수록 Anomaly Detection 능력이 떨어지고,
 1에 가까울수록 탐지 능력이 우수하다.
 
@@ -62,7 +62,7 @@ $P_n$과 $R_n$는 n번째 threshold에서의 Precision과 Recall이다.
 ## Foot Note
 
 <p id="1">
-[1] https://yahooresearch.tumblr.com/post/114590420346/a-benchmark-dataset-for-time-series-anomaly</a> <a href = "#a1">↩</p>
+[1] https://yahooresearch.tumblr.com/post/114590420346/a-benchmark-dataset-for-time-series-anomaly</a> <a href = "#a1">↩</a></p>
 
 <p id="2"> [2] Anomal Point가 없는 데이터셋 3개 제외 <a href = "#a2">↩</a></p>
 
