@@ -100,7 +100,8 @@ def inference_(api, branch, num, graph=False):
     ###data loading
     name = data_sel(branch, num)
     try:
-        real_1 = pd.read_csv('../anomaly_detection/dataset/' + name)
+        real_1 = pd.read_csv('dataset/' + name)
+        real_1['value'] = real_1['value'].astype('float')
     except:
         return None
     
@@ -123,7 +124,7 @@ def inference_(api, branch, num, graph=False):
         lm.set_data(abn_pt, y, ts)
 
         ap, lm_true, lm_score = lm.f1_metrics()
-        print("AP score for %s is: %f" %(api, ap))
+#         print("AP score for %s is: %f" %(api, ap))
         if graph:
             vis(y, ts, lm_true, lm_score, type_ = 'timestamp')
 
@@ -137,7 +138,7 @@ def inference_(api, branch, num, graph=False):
                     granularity='hourly')
 
         ap, az_true, az_score = az.f1_metrics()  
-        print("AP score for %s is: %f" %(api, ap))
+#         print("AP score for %s is: %f" %(api, ap))
         if graph:
             vis(y, dt, az_true, az_score, type_ = 'datetime')
         
