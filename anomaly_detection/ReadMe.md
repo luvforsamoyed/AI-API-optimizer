@@ -30,10 +30,8 @@ Luminol(오픈 소스)를 포함한 총 3가지의 환경에서 time series에 �
 |Seasonality, Noise Labeling|X|X|O|O|
 |Trend, Change Point 여부|X|X|X|O|
 
-<a id="1">
-https://yahooresearch.tumblr.com/post/114590420346/a-benchmark-dataset-for-time-series-anomaly</a> <a href = "#a1">↩</a>
 
-<p id="2"> Anomal Point가 없는 데이터셋 3개 제외 <a href = "#a2">↩</a></p>
+
 
 
 
@@ -60,4 +58,11 @@ $P_n$과 $R_n$는 n번째 threshold에서의 Precision과 Recall이다.
 |A4|0.65|0.31|<center>-|
 |**Average**|**0.79**|**0.69**|<center>**-**|
 
+
+## Foot Note
+
+<p id="1">
+[1] https://yahooresearch.tumblr.com/post/114590420346/a-benchmark-dataset-for-time-series-anomaly</a> <a href = "#a1">↩</p>
+
+<p id="2"> [2] Anomal Point가 없는 데이터셋 3개 제외 <a href = "#a2">↩</a></p>
 
