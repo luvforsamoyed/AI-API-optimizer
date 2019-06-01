@@ -1,3 +1,4 @@
+
 # API Comparison for Anomaly Detection in Time Series
 Luminol(오픈 소스)를 포함한 총 3가지의 환경에서 time series에 대한 anomaly detection 성능비교를 진행할 것이다.
 
@@ -16,28 +17,23 @@ Luminol(오픈 소스)를 포함한 총 3가지의 환경에서 time series에 �
 
 
 # Dataset Description
-데이터셋은 Yahoo! Webscope<sup>[1](#1)</sup>로부터 제공된 것이다.
+데이터셋은 Yahoo! Webscope<sup id ='a1'>[1](#1)</sup>로부터 제공된 것이다.
 
 데이터셋은 70여개의 실제 시계열 데이터와 300여개의 가상 데이터셋으로 4개의 섹션(A1, A2, A3, A4)으로 구분되어 있다.
 
 |  |A1|A2|A3|A4|
 |--|--|--|--|--|
-|데이터셋 개수|64[^2]|100|100|100|
+|데이터셋 개수|64<sup id ='a2'>[2](#2)</sup>|100|100|100|
 |time interval|1 hour|1 hour|1 hour|1 hour|
 |실제/가상|실제|가상|가상|가상|
 |Hand Labeling 여부|O|X|X|X|
 |Seasonality, Noise Labeling|X|X|O|O|
 |Trend, Change Point 여부|X|X|X|O|
 
-<a name="1">Yahoo! Webscope dataset ydata-labeled-time-series-anomalies-v1_0 
-[[https://yahooresearch.tumblr.com/post/114590420346/a-benchmark-dataset-for-time-series-anomaly](https://yahooresearch.tumblr.com/post/114590420346/a-benchmark-dataset-for-time-series-anomaly)]</a>
+<a id="1">
+https://yahooresearch.tumblr.com/post/114590420346/a-benchmark-dataset-for-time-series-anomaly</a> <a href = "#a1">↩</a>
 
-
-[^1]: Yahoo! Webscope dataset ydata-labeled-time-series-anomalies-v1_0 
-[[https://yahooresearch.tumblr.com/post/114590420346/a-benchmark-dataset-for-time-series-anomaly](https://yahooresearch.tumblr.com/post/114590420346/a-benchmark-dataset-for-time-series-anomaly)]
-
-
-[^2]: Anomal Point가 없는 데이터셋 3개 제외
+<p id="2"> Anomal Point가 없는 데이터셋 3개 제외 <a href = "#a2">↩</a></p>
 
 
 
