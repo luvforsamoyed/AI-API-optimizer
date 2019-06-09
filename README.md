@@ -72,10 +72,10 @@ P_n과 R_n는 n번째 threshold에서의 Precision과 Recall이다.
  1년간(14.05 -15.05)의 King County 지역의 주택 매매 기록
 
 #### Stats
-18 Features (exclude Transaction ID, Date)
-17,290 Train Samples (80%)
-4,323 Test Samples (20%)
-Target Feature : House Price
+18 Features (exclude Transaction ID, Date)  
+17,290 Train Samples (80%)  
+4,323 Test Samples (20%)  
+Target Feature : House Price  
 
 
 ### Results
@@ -100,10 +100,10 @@ Target Feature : House Price
 
 
 #### Stats
-18 Features (exclude Transaction ID, Date)
-48,971 Train Samples (80%)
-12,243 Test Samples (20%)
-Target Feature : (0: No Show, 1: Show)
+18 Features (exclude Transaction ID, Date)  
+48,971 Train Samples (80%)  
+12,243 Test Samples (20%)  
+Target Feature : (0: No Show, 1: Show)  
 
 
 ### Results
