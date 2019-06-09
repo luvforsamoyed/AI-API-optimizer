@@ -17,9 +17,9 @@
 # Anomaly Detection 
 
 ### 비교 환경
-* Luminol python library
+* Luminol python library (non-ML)
+* MS Azure - Anomaly Detector (non-ML)
 * AWS Sagemaker - Random Cut Forest
-* MS Azure - Anomaly Detector
 
 ### 데이터셋
 데이터셋은 Yahoo! Webscope<sup id ='a1'>[1](#1)</sup>로부터 제공된 것이다.
@@ -79,7 +79,7 @@ Target Feature : House Price
 
 
 ### Results
-|  |Keras|AWS LinearLearner|AWS XGBoost|GCP|
+|  |Keras|AWS Linear Learner|AWS XGBoost|GCP|
 |--|--|--|--|--|
 |RMSE|159,439|232,880|153,974|121,138|
 |MAE|81,958|129,768|73,890|67,357|
@@ -107,7 +107,7 @@ Target Feature : (0: No Show, 1: Show)
 
 
 ### Results
-|  |Keras|AWS LinearLearner|AWS XGBoost|GCP|
+|  |Keras|AWS Linear Learner|AWS XGBoost|GCP|
 |--|--|--|--|--|
 |AUPRC|0.567|0.570|0.623|0.504|
 |AUROC|0.829|0.828|0.856|0.795|
