@@ -1,20 +1,21 @@
+
 # Cloud API 성능 비교 Report
 
 ### Index
-* API 별 특징 - AWS vs Rest of all
+* [API 별 특징 - AWS vs Rest of all](#t1)
 * 성능 비교
-	* Anomaly Detection (Time Series)
-	* Regression (Tableau)
-	* Classification (Tableau)
+	* [Anomaly Detection (Time Series)](#t2)
+	* [Regression (Tableau)](#t3)
+	* [Classification (Tableau)](#t4)
 
-# API 별 특징 - AWS vs Rest of all
+# <p id="t1">API 별 특징 - AWS vs Rest of all</p>
 사실 API간의 비교는 AWS vs 나머지 API의 구도라고 볼 수 있다. GCP, Azure, Watson 같은 경우, 사용자가 데이터를 업로드하면, API는 자동으로 데이터를 분석하고, 인사이트를 도출해내는, 사용자 친화적인 GUI를 제공하고 있다. AWS같은 경우, 알고리즘, 파라미터, 인스턴스 등 결과 도출에 필요한 모든 설정을 사용자가 명령어들을 통해 제어해야 한다.
 
 이는 AWS가 사용자에게 굉장한 선택의 폭을 제공한다는 것을 의미한다. 다시 말해 성능과 비용의 최적화를 지향한다. 동시에 입문 장벽이 굉장히 높다는 것이 큰 단점이다.
 
 반대로 다른 API는 입문 장벽이 낮은 동시에, 빠른 시간 안에 결과를 도출할 수 있다는 장점이 있으며, 개인에게 최적화된 솔루션을 구축하기엔 다소 비효율적이라는 단점이 있다.
  
-# Anomaly Detection 
+# <p id="t2">Anomaly Detection </p>
 
 ### 비교 환경
 * Luminol python library (non-ML)
@@ -59,7 +60,7 @@ P_n과 R_n는 n번째 threshold에서의 Precision과 Recall이다.
 
 
 
-# Regression
+# <p id="t3">Regression</p>
 
 ### 비교 환경
 * Keras/Tensorflow
@@ -85,7 +86,7 @@ Target Feature : House Price
 |MAE|81,958|129,768|73,890|67,357|
 |R^2|0.87|0.69|0.86|0.91|
 |MAPE|14.98%|25.34%|13.32%|12.44%|
-# Classification
+# <p id="t4">Classification</p>
 
 ### 비교 환경
 * Keras/Tensorflow
