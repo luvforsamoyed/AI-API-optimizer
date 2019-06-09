@@ -84,7 +84,7 @@ Target Feature : House Price
 |RMSE|159,439|232,880|153,974|121,138|
 |MAE|81,958|129,768|73,890|67,357|
 |R^2|0.87|0.69|0.86|0.91|
-|MAPE|14.98|25.34|13.32|12.44|
+|MAPE|14.98%|25.34%|13.32%|12.44%|
 # Classification
 
 ### 비교 환경
@@ -100,7 +100,7 @@ Target Feature : House Price
 
 
 #### Stats
-18 Features (exclude Transaction ID, Date)  
+18 Features    
 48,971 Train Samples (80%)  
 12,243 Test Samples (20%)  
 Target Feature : (0: No Show, 1: Show)  
